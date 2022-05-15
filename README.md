@@ -1,7 +1,32 @@
-# Vue 3 + Vite
+# vite-navigation-guards
+## Steps
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1. Create vue3 template using vite
 
-## Recommended IDE Setup
+    ```
+    $ npm create vite@latest
+    ```
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+2. Install vuex and vue-router
+
+    ```
+    $ npm install vuex vue-router
+    ```
+
+3. Store the authorization status in vuex store
+
+    `src/store.js`
+
+4. Create a restricted route as a component
+
+    `src/components/Private.vue`
+   
+5. Create login component
+
+    `src/components/Login.vue`
+
+6. Define navigation routes and guard access
+
+    `src/router.js`
+
+7. Import `store.js` and `router.js` in `App.vue` 

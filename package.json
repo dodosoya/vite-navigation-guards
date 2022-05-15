@@ -1,5 +1,5 @@
 {
-  "name": "vite-navigation-guard",
+  "name": "vite-navigation-guards",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
